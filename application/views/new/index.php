@@ -229,7 +229,7 @@
   <script type="text/javascript">
     var token = '4009172816.2f89f54.ed4ea822114f43d88c4d3fe10be4eb6c', // learn how to obtain it below
     userid = '4009172816', // User ID - get it in source HTML of your Instagram profile or look at the next example :)
-    num_photos = 6; // how much photos do you want to get
+    num_photos = 20; // how much photos do you want to get
  
 $.ajax({
   url: 'https://api.instagram.com/v1/users/' + userid + '/media/recent', // or /users/self/media/recent for Sandbox
@@ -241,8 +241,12 @@ $.ajax({
     for( x in data.data ){
       console.log(data.data[x].images.low_resolution.url);
 
- 
-        $('.feed2').append('<div class="col-lg-6"><a class="post dis" href="#next2"  data-aos="fade-up" data-aos-delay="200"><figure><img src="'+data.data[x].images.low_resolution.url+'" alt="Free Template" class="img-fluid">  </figure><div class="post-hover"><div class="post-hover-inner"><h2>'+data.data[x].caption.text.trunc(20)+'</h2><span>'+timeConverter(data.data[x].created_time)+'</span></div></div></a></div>');
+        for (var i = 0; i < data.data[x].tags.length; i++) {
+          if (data.data[x].tags[i]=="imp") {
+            $('.feed2').append('<div class="col-lg-6"><a class="post dis" href="#next2"  data-aos="fade-up" data-aos-delay="200"><figure><img src="'+data.data[x].images.low_resolution.url+'" alt="Free Template" class="img-fluid">  </figure><div class="post-hover"><div class="post-hover-inner"><h2>'+data.data[x].caption.text.trunc(20)+'</h2><span>'+timeConverter(data.data[x].created_time)+'</span></div></div></a></div>');
+          }
+        }
+        
       
       //$('ul').append('<li><img src="'+data.data[x].images.low_resolution.url+'"></li>'); // data.data[x].images.low_resolution.url - URL of image, 306х306
       // data.data[x].images.thumbnail.url - URL of image 150х150
