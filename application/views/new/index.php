@@ -242,7 +242,7 @@ $.ajax({
       console.log(data.data[x].images.low_resolution.url);
 
  
-        $('.feed2').append('<div class="col-lg-6"><a class="post" href="#next2"  data-aos="fade-up" data-aos-delay="200"><figure><img src="'+data.data[x].images.low_resolution.url+'" alt="Free Template" class="img-fluid">  </figure><div class="post-hover"><div class="post-hover-inner"><h2>'+data.data[x].caption.text.trunc(20)+'</h2><span>'+timeConverter(data.data[x].created_time)+'</span></div></div></a></div>');
+        $('.feed2').append('<div class="col-lg-6"><a class="post dis" href="#next2"  data-aos="fade-up" data-aos-delay="200"><figure><img src="'+data.data[x].images.low_resolution.url+'" alt="Free Template" class="img-fluid">  </figure><div class="post-hover"><div class="post-hover-inner"><h2>'+data.data[x].caption.text.trunc(20)+'</h2><span>'+timeConverter(data.data[x].created_time)+'</span></div></div></a></div>');
       
       //$('ul').append('<li><img src="'+data.data[x].images.low_resolution.url+'"></li>'); // data.data[x].images.low_resolution.url - URL of image, 306х306
       // data.data[x].images.thumbnail.url - URL of image 150х150
@@ -270,12 +270,10 @@ String.prototype.trunc = String.prototype.trunc ||
       };
   </script>
   <script> 
-   function clickAndDisable(link) {
-     // disable subsequent clicks
-     link.onclick = function(event) {
-        event.preventDefault();
-     }
-   }   
+   $(document).on('click', '.dis', function(e) {
+    e.preventDefault();
+//do whatever
+});  
 </script>
   </body>
 </html>
