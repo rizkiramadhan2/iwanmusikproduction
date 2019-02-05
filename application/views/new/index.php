@@ -243,7 +243,7 @@ $.ajax({
 
         for (var i = 0; i < data.data[x].tags.length; i++) {
           if (data.data[x].tags[i]=="imp") {
-            $('.feed2').append('<div class="col-lg-6"><a class="post dis" href="#next2"  data-aos="fade-up" data-aos-delay="200"><figure><img src="'+data.data[x].images.low_resolution.url+'" alt="Free Template" class="img-fluid">  </figure><div class="post-hover"><div class="post-hover-inner"><h2>'+data.data[x].caption.text.trunc(20)+'</h2><span>'+timeConverter(data.data[x].created_time)+'</span></div></div></a></div>');
+            $('.feed2').append('<div class="col-lg-6"><a class="post dis" href="#next2"  data-aos="fade-up" data-aos-delay="200"><figure><img src="'+data.data[x].images.low_resolution.url+'" alt="Free Template" class="img-fluid">  </figure><div class="post-hover"><div class="post-hover-inner"><h2 style="font-size:1.25em">'+data.data[x].caption.text.trunc(40)+'</h2><span>'+timeConverter(data.data[x].created_time)+'</span></div></div></a></div>');
           }
         }
         
