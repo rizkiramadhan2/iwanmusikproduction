@@ -53,7 +53,7 @@
             <div class="block-38 ">
               <div class="block-38-img">
                 <div class="block-38-header">
-                  <img src="<?=base_url()?>images2/team.jpg" alt="Image placeholder">
+                  <img src="<?=base_url()?>images2/team.JPG" alt="Image placeholder">
                   <h3 class="block-38-heading">Ridwan Adi Kurniawan</h3>
                   <p class="block-38-subheading">CEO, Founder</p>
                 </div>
