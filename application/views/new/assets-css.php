@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="<?=base_url()?>css2/owl.carousel.min.css">
 <link rel="stylesheet" href="<?=base_url()?>fonts2/icomoon/style.css">
 <link rel="stylesheet" href="<?=base_url()?>css2/animsition.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 <link rel="stylesheet" href="<?=base_url()?>css2/style.css">
 <link rel="icon" type="image/gif" href="<?php echo base_url().'images2/favicon.ico' ?>" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />

@@ -17,7 +17,7 @@
         <nav class="templateux-menu js-templateux-menu" role="navigation">
           <ul class="list-unstyled">
             <li class="d-md-none d-block active"><a href="<?= base_url('home')?>" class="animsition-link">Home</a></li>
-            <li><a href="<?=base_url('work')?>" class="animsition-link">Price list</a></li>
+            <li><a href="<?=base_url('work')?>" class="animsition-link">Spec</a></li>
             <li><a href="<?=base_url('about')?>" class="animsition-link">About</a></li>
             <!-- <li><a href="<?=base_url('blog')?>" class="animsition-link">Blog</a></li> -->
             <li><a href="<?=base_url('contact')?>" class="animsition-link">Contact</a></li>

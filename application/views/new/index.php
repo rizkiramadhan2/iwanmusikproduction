@@ -38,15 +38,30 @@
             
 
             <div class="row  pt-sm-0 pt-md-5 mb-5">
+            <div class="col-lg-12">
+                <div class="media templateux-media mb-4">
+                  <div class="mr-4 icon">
+                  <span class="display-3"><i class="fa-solid fa-bolt-lightning fa-sm"></i></span>
+                </div>
+                <div class="media-body">
+                  <h3 class="h5">Silent Generator</h3>
+                  <p>We provide silent power supply to support Big Event (up to 200Kwh)</p>
+                </div>
+              </div>
+            </div>
 
               <div class="col-lg-6">
                 <div class="media templateux-media mb-4">
                   <div class="mr-4 icon">
-                    <span class="icon-monitor display-3"></span>
+                  <span class="display-3"><i class="fa-solid fa-guitar fa-sm"></i></span>
                   </div>
                   <div class="media-body">
                     <h3 class="h5">Music Equipment</h3>
                     <p>We have various good quality and branded music equipment.</p>
+                    <b><ul>
+                      <li>Sound System</li>
+                      <li>Set Band Equipment</li>
+                    </ul></b>
                   </div>
                 </div>
               </div>
@@ -54,11 +69,11 @@
               <div class="col-lg-6">
                 <div class="media templateux-media mb-4">
                   <div class="mr-4 icon">
-                    <span class="icon-command display-3"></span>
+                    <span class="display-3"><i class="fa-regular fa-lightbulb fa-sm"></i></span>
                   </div>
                   <div class="media-body">
-                    <h3 class="h5">Lighting Stage</h3>
-                    <p>Your event will be shined by our well quality lighting tools</p>
+                    <h3 class="h5">Lighting System</h3>
+                    <p>We provide immersive lighting system with well-quality equipment</p>
                   </div>
                 </div>
               </div>
@@ -66,10 +81,10 @@
             </div>
             <!-- END row -->
             <div class="row clearfix">
-              <div class="col-lg-6">
-                <div class="media templateux-media mb-4">
-                  <div class="mr-4 icon">
-                    <span class="icon-feather display-3"></span>
+            <div class="col-lg-6">
+              <div class="media templateux-media mb-4">
+                <div class="mr-4 icon">
+                  <span class="display-3"><i class="fa-solid fa-landmark fa-sm"></i></i></span>
                   </div>
                   <div class="media-body">
                     <h3 class="h5">Rigging Stage</h3>
@@ -81,11 +96,45 @@
                 
                 <div class="media templateux-media mb-4">
                   <div class="mr-4 icon">
-                    <span class="icon-shopping-cart display-3"></span>
+                    <span class="display-3"><i class="fa-solid fa-clapperboard fa-sm"></i></span>
                   </div>
                   <div class="media-body">
                     <h3 class="h5">Multimedia</h3>
-                    <p>We also provide multimedia gadgets such as camera, LCD projector, and many more </p>
+                    <p>We also provide multimedia gadgets such as <b>camera</b>, <b>LCD projector</b>, <b>TV LED</b>,and many more </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END row -->
+            <div class="row clearfix">
+              <div class="col-lg-6">
+                <div class="media templateux-media mb-4">
+                  <div class="mr-4 icon">
+                  <span class="display-3"><i class="fa-solid fa-tents fa-sm"></i></span>
+                </div>
+                <div class="media-body">
+                    <h3 class="h5">Tents System</h3>
+                    <p>We alse provide various tents, to support multi-tenant in the fields, Include:</p>
+                    <ul>
+                      <li>Conical Tents</li>
+                      <li>Backstage Tents</li>
+                      <li>Chair and Desk</li>
+                      <li>Cooling system (AC, Blower, Fan Standing)</li>
+                      <li>Tent lighting/Area lighting</li>
+                      <li>Open Gate</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                
+                <div class="media templateux-media mb-4">
+                  <div class="mr-4 icon">
+                    <span class="display-3"><i class="fa-solid fa-tents fa-sm"></i></span>
+                  </div>
+                  <div class="media-body">
+                    <h3 class="h5">Photo booth</h3>
+                    <p>We can create customize iconic photo booth in the venue</p>
                   </div>
                 </div>
               </div>
@@ -230,7 +279,45 @@
     var token = '4009172816.2f89f54.ed4ea822114f43d88c4d3fe10be4eb6c', // learn how to obtain it below
     userid = '4009172816', // User ID - get it in source HTML of your Instagram profile or look at the next example :)
     num_photos = 20; // how much photos do you want to get
- 
+
+
+        let obj = [
+            {
+                url: '<?=base_url()?>images2/Event-PJT-1-BUMN-Mudik-Gratis-2023.jpg',
+                text: 'Event PJT 1 BUMN Mudik Gratis 2023', 
+            },
+            {
+                url: '<?=base_url()?>images2/Fakultas-Kedokteran-Hewan-Universitas-Brawijaya.jpg',
+                text: 'Fakultas Kedokteran Hewan Universitas Brawijaya', 
+            },
+            {
+                url: '<?=base_url()?>images2/Golden-Tulip-Holland-Resort-Batu.jpg',
+                text: 'Golden Tulip Holland Resort Batu', 
+            },
+            {
+                url: '<?=base_url()?>images2/Grand-Mercure-Malang-Mirama.jpg',
+                text: 'Grand Mercure Malang Mirama', 
+            },
+            {
+                url: '<?=base_url()?>images2/Savana-Hotel-Convention-Malang.jpg',
+                text: 'Savana Hotel Convention Malang', 
+            },
+            {
+                url: '<?=base_url()?>images2/Taman-Krida-Suhat-Kota-Malang.jpg',
+                text: 'Taman Krida Suhat Kota Malang', 
+            },
+        ]
+        for (var i = 0; i < obj.length; i++) {
+            let o = obj[i]
+            $('.feed2').append('<div class="col-lg-6"><a class="post dis" href="#next2"  data-aos="fade-up" data-aos-delay="200"><figure><img src="'+o.url+'" alt="Free Template" class="img-fluid">  </figure><div class="post-hover"><div class="post-hover-inner"><h2 style="font-size:1.25em">'+o.text+'</h2><span>'+'</span></div></div></a></div>')
+        }
+        
+      
+      //$('ul').append('<li><img src="'+data.data[x].images.low_resolution.url+'"></li>'); // data.data[x].images.low_resolution.url - URL of image, 306х306
+      // data.data[x].images.thumbnail.url - URL of image 150х150
+      // data.data[x].images.standard_resolution.url - URL of image 612х612
+      // data.data[x].link - Instagram post URL 
+
 $.ajax({
   url: 'https://api.instagram.com/v1/users/' + userid + '/media/recent', // or /users/self/media/recent for Sandbox
   dataType: 'jsonp',
