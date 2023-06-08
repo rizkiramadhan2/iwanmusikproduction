@@ -73,66 +73,128 @@
 
     
 
-    <section class="templateux-section">
-
-
+    <section class="templateux-section" id="next" >
       <div class="container">
-        <div class="row">
-          <div class="col-md-12 clearfix mb-5" data-aos="fade-up">
-            <h2>What we offer</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-4" data-aos="fade-up">
+            <h2 class="section-heading mt-3">What We Offer</h2>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4"  data-aos="fade-up" data-aos-delay="100">
-            <div class="media templateux-media mb-4">
-              <div class="mr-4 icon">
-                <span class="icon-monitor display-3"></span>
+          <div class="col-md-8" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row">
+              <div class="col-md-12">
+                <h2 class="mb-5">If you are looking for music equipment, lighting stage, and other tools, we are your solution. </h2>
               </div>
-              <div class="media-body">
+            </div>
+            
+
+            <div class="row  pt-sm-0 pt-md-5 mb-5">
+            <div class="col-lg-12">
+                <div class="media templateux-media mb-4">
+                  <div class="mr-4 icon">
+                  <span class="display-3"><i class="fa-solid fa-bolt-lightning fa-sm"></i></span>
+                </div>
+                <div class="media-body">
+                  <h3 class="h5">Silent Generator</h3>
+                  <p>We provide silent power supply to support Big Event (up to 200Kwh)</p>
+                </div>
+              </div>
+            </div>
+
+              <div class="col-lg-6">
+                <div class="media templateux-media mb-4">
+                  <div class="mr-4 icon">
+                  <span class="display-3"><i class="fa-solid fa-guitar fa-sm"></i></span>
+                  </div>
+                  <div class="media-body">
                     <h3 class="h5">Music Equipment</h3>
                     <p>We have various good quality and branded music equipment.</p>
+                    <b><ul>
+                      <li>Sound System</li>
+                      <li>Set Band Equipment</li>
+                    </ul></b>
                   </div>
-            </div>
-          </div>
-          <div class="col-md-4"  data-aos="fade-up" data-aos-delay="200">
-            <div class="media templateux-media mb-4">
-              <div class="mr-4 icon">
-                <span class="icon-command display-3"></span>
+                </div>
               </div>
-              <div class="media-body">
-                    <h3 class="h5">Lighting Stage</h3>
-                    <p>Your event will be shined by our well quality lighting tools</p>
+
+              <div class="col-lg-6">
+                <div class="media templateux-media mb-4">
+                  <div class="mr-4 icon">
+                    <span class="display-3"><i class="fa-regular fa-lightbulb fa-sm"></i></span>
                   </div>
-            </div>
-          </div>
-          <div class="col-md-4"  data-aos="fade-up" data-aos-delay="300">
-            <div class="media templateux-media mb-4">
-              <div class="mr-4 icon">
-                <span class="icon-feather display-3"></span>
+                  <div class="media-body">
+                    <h3 class="h5">Lighting System</h3>
+                    <p>We provide immersive lighting system with well-quality equipment</p>
+                  </div>
+                </div>
               </div>
-              <div class="media-body">
+
+            </div>
+            <!-- END row -->
+            <div class="row clearfix">
+            <div class="col-lg-6">
+              <div class="media templateux-media mb-4">
+                <div class="mr-4 icon">
+                  <span class="display-3"><i class="fa-solid fa-landmark fa-sm"></i></i></span>
+                  </div>
+                  <div class="media-body">
                     <h3 class="h5">Rigging Stage</h3>
                     <p>We have some rigging stages that support your big event such as semi-rigging stage and full-rigging stage</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <!-- END row -->
-        <div class="row">
-          <div class="col-md-4"  data-aos="fade-up" data-aos-delay="100">
-            <div class="media templateux-media mb-4">
-              <div class="mr-4 icon">
-                <span class="icon-shopping-cart display-3"></span>
-              </div>
-             <div class="media-body">
+              <div class="col-lg-6">
+                
+                <div class="media templateux-media mb-4">
+                  <div class="mr-4 icon">
+                    <span class="display-3"><i class="fa-solid fa-clapperboard fa-sm"></i></span>
+                  </div>
+                  <div class="media-body">
                     <h3 class="h5">Multimedia</h3>
-                    <p>We also provide multimedia gadgets such as camera, LCD projector, and many more </p>
+                    <p>We also provide multimedia gadgets such as <b>camera</b>, <b>LCD projector</b>, <b>TV LED</b>,and many more </p>
+                  </div>
+                </div>
               </div>
             </div>
+            <!-- END row -->
+            <div class="row clearfix">
+              <div class="col-lg-6">
+                <div class="media templateux-media mb-4">
+                  <div class="mr-4 icon">
+                  <span class="display-3"><i class="fa-solid fa-tents fa-sm"></i></span>
+                </div>
+                <div class="media-body">
+                    <h3 class="h5">Tents System</h3>
+                    <p>We alse provide various tents, to support multi-tenant in the fields, Include:</p>
+                    <ul>
+                      <li>Conical Tents</li>
+                      <li>Backstage Tents</li>
+                      <li>Chair and Desk</li>
+                      <li>Cooling system (AC, Blower, Fan Standing)</li>
+                      <li>Tent lighting/Area lighting</li>
+                      <li>Open Gate</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                
+                <div class="media templateux-media mb-4">
+                  <div class="mr-4 icon">
+                    <span class="display-3"><i class="fa-solid fa-tents fa-sm"></i></span>
+                  </div>
+                  <div class="media-body">
+                    <h3 class="h5">Photo booth</h3>
+                    <p>We can create customize iconic photo booth in the venue</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END row -->
           </div>
         </div>
-        <!-- END row -->
-      </div>  
+       
+      </div>
     </section>
 
     <?php $this->load->view('new/footer') ?>
