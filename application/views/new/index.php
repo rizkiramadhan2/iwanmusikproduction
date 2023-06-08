@@ -130,7 +130,7 @@
                 
                 <div class="media templateux-media mb-4">
                   <div class="mr-4 icon">
-                    <span class="display-3"><i class="fa-solid fa-tents fa-sm"></i></span>
+                    <span class="display-3"><i class="fa-solid fa-camera-retro fa-sm"></i></span>
                   </div>
                   <div class="media-body">
                     <h3 class="h5">Photo booth</h3>
