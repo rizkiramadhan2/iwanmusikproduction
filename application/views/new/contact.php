@@ -35,47 +35,47 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3"  data-aos="fade-up" data-aos-delay="100">
-            <div class="media templateux-media mb-4">
+          <div class="col-md-6"  data-aos="fade-up" data-aos-delay="100">
+            <div class="media templateux-media mb-6">
               <div class="mr-3 icon">
-                <span class="icon-monitor display-3"></span>
+                <i class="fa-brands fa-whatsapp fa-xl display-3"></i>
               </div>
               <div class="media-body">
-                <h3 class="h5">Phone/Whatsapp</h3>
-                <p>081288167973</p>
+                <h3 class="h5">Phone/WA</h3>
+                <p><a href="http://wa.me/6281288167973">081288167973</a></p>
               </div>
             </div>
           </div>
-          <div class="col-md-3"  data-aos="fade-up" data-aos-delay="200">
-            <div class="media templateux-media mb-4">
+          <div class="col-md-6"  data-aos="fade-up" data-aos-delay="200">
+            <div class="media templateux-media mb-6">
               <div class="mr-3 icon">
-                <span class="icon-command display-3"></span>
+                <i class="fa-regular fa-envelope fa-xl display-3"></i>
               </div>
               <div class="media-body">
                 <h3 class="h5">Email</h3>
-                <p>iwanmusikmalang@gmail.com</p>
+                <p>iwanmusikproduction@gmail.com</p>
               </div>
             </div>
           </div>
-          <div class="col-md-3"  data-aos="fade-up" data-aos-delay="300">
-            <div class="media templateux-media mb-4">
+          <div class="col-md-6"  data-aos="fade-up" data-aos-delay="300">
+            <div class="media templateux-media mb-6">
               <div class="mr-3 icon">
-                <span class="icon-feather display-3"></span>
+                <i class="fa-brands fa-instagram fa-xl display-3"></i>
               </div>
               <div class="media-body">
                 <h3 class="h5">Instagram</h3>
-                <p>iwanmusikproduction</p>
+                <p><a href="https://www.instagram.com/iwanmusikproduction/">@iwanmusikproduction</a></p>
               </div>
             </div>
           </div>
-          <div class="col-md-3"  data-aos="fade-up" data-aos-delay="300">
-            <div class="media templateux-media mb-4">
+          <div class="col-md-6"  data-aos="fade-up" data-aos-delay="300">
+            <div class="media templateux-media mb-6">
               <div class="mr-3 icon">
-                <span class="icon-feather display-3"></span>
+                <i class="fa-solid fa-location-dot fa-xl display-3"></i>
               </div>
               <div class="media-body">
                 <h3 class="h5">Address</h3>
-                <p>Perumahan Griya Permata Alam Blok F No.2, Karangploso, Malang</p>
+                <p>Kota Malang, Jawa Timur, Indonesia</p>
               </div>
             </div>
           </div>
@@ -85,8 +85,7 @@
     </section>
     
 
-    <section><div class="container"><iframe width="100%" height="320px;" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d988.0039289676281!2d112.60718982917663!3d-7.893423999644574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwNTMnMzYuMyJTIDExMsKwMzYnMjcuOSJF!5e0!3m2!1sen!2sid!4v1548681622596" allowfullscreen></iframe></div></section>
-
+    <section><div class="container"><iframe width="100%" height="320px;" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63219.15529082515!2d112.59058332022902!3d-7.978558312030891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62822063dc2fb%3A0x78879446481a4da2!2sMalang%2C%20Malang%20City%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1686241926123!5m2!1sen!2sid"  allowfullscreen></iframe></div></section>
     <?php $this->load->view('new/footer') ?>
 
   </div>

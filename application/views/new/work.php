@@ -16,7 +16,7 @@
       <div class="container">
         <div class="row align-items-center justify-content-center intro">
           <div class="col-md-10" data-aos="fade-up">
-            <h1>Price List</h1>
+            <h1>Spec</h1>
             <p class="lead">For your convenience, your needs will be adjusted based on your budget. If you looking for some specifications, we have it below.</p>
             <a href="#next" class="go-down js-smoothscroll"></a>
           </div>
